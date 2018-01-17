@@ -1,0 +1,64 @@
+html,
+body {
+  height: 100%;
+}
+.layout-boxed html,
+.layout-boxed body {
+  height: 100%;
+}
+body {
+  font-family: 'Source Sans Pro', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  font-weight: 400;
+  overflow-x: hidden;
+  overflow-y: auto;
+}
+.content-wrapper {
+	
+}
+.row {
+	padding:10px 20px 10px 20px;
+}
+.margin {
+	/*margin: 0px 10px 0px 10px;*/
+}
+.table {
+
+}
+.table-row {
+	color: white;
+	background: #008B8B;
+}
+.table-row th {
+	border:1px solid #ddd;
+	text-align: center;
+}
+.table tbody tr td {
+	border:1px solid #ddd;
+	text-align: center;
+}
+.button {
+	display: inline;
+}
+.add {
+	width: 100px;
+	text-align: center;
+	display: block;
+	float: right;
+	margin-right: 11px;
+	margin-top:4px;
+}
+.add p {
+	height: 10px;
+}
+#listGroup {
+	background-color: #fff; 
+}
+.pagination {
+	float: right;
+}
+.box-footer {
+	display: block;
+	float: left;
+	border-color: #fff;
+}
+
